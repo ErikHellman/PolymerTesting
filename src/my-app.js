@@ -22,6 +22,9 @@ import '@polymer/iron-pages/iron-pages.js';
 import '@polymer/iron-selector/iron-selector.js';
 import '@polymer/paper-icon-button/paper-icon-button.js';
 import './my-icons.js';
+import './my-view1'
+import './my-view2'
+import './my-view3'
 
 // Gesture events like tap and track generated from touch will not be
 // preventable, allowing for better scrolling performance.
@@ -153,6 +156,7 @@ class MyApp extends PolymerElement {
     //
     // Note: `polymer build` doesn't like string concatenation in the import
     // statement, so break it up.
+/*
     switch (page) {
       case 'view1':
         import('./my-view1.js');
@@ -167,6 +171,7 @@ class MyApp extends PolymerElement {
         import('./my-view404.js');
         break;
     }
+*/
   }
 }
 
